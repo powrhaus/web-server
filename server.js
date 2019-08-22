@@ -27,7 +27,7 @@ app.use(middleware.logger);
 
 // route level middleware
 app.get('/about', middleware.requireAuthentication, function(req,res) {
-    res.send('Fudgesicle!!!!!!!!!!!!!!!!!!!!!!');
+    res.send('Fudgesicle!!!!!!!!!!!!!!!!!!!!!');
 });
 // console.log(__dirname);
 
